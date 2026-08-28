@@ -1,0 +1,17 @@
+{
+  "release_id": "checkout-2026-08-27",
+  "build": {
+    "build_id": "build-1842",
+    "environment": "production",
+    "version": "checkout-api@4.8.0",
+    "summary": "payment diagnostics include gateway request IDs"
+  },
+  "recipients": [
+    {
+      "developer_id": "storefront-oncall",
+      "phone": "+14155550120",
+      "environment": "production",
+      "sms_opt_in": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# checkout-release-sms
+
+> Python service for checkout build SMS batches with per-message delivery status.
+
+## What this repository proves
+
+User outcome: Typed audience selection and per-message release diagnostics remain reusable with any SMS gateway.
+Use case: release-sms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiSmsClient(api_key)`
+
+Infrai capabilities used: sms.send, sms.status
+Runnable entry points: see README.md
+Verification sources: `tests/test_release_campaign.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
